@@ -1,38 +1,17 @@
 {
-    "name": "shadowsocks",
-    "description": "a tunnel proxy that help you get through firewalls",
-    "keywords": ["shadowsocks", "proxy", "socks5"],
-    "author": "clowwindy",
-    "version": "1.5.3",
-    "scripts": {
-        "start": "/bin/ssserver"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://raw.github.com/clowwindy/shadowsocks-nodejs/master/LICENSE"
-    }],
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "directories": {
-        "lib": "./lib/shadowsocks"
-    },
-    "main": "./lib/shadowsocks/local",
-    "bin": {
-        "sslocal": "./bin/sslocal",
-        "ssserver": "./bin/ssserver"
-    },
-    "scripts": {
-        "test": "cake test"
-    },
-    "homepage": "https://github.com/clowwindy/shadowsocks-nodejs",
-    "bugs": "https://github.com/clowwindy/shadowsocks-nodejs/issues",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/clowwindy/shadowsocks-nodejs.git"
-    },
-    "devDependencies": {
-        "coffee-script": ">=1.6.2",
-        "shadowsocks": ">=1.5.3"
-    }
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.13.x",
+		"cfenv": "1.0.x",
+		"shadowsocks": "1.5.3"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
 }
