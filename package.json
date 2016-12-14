@@ -4,6 +4,9 @@
     "keywords": ["shadowsocks", "proxy", "socks5"],
     "author": "clowwindy",
     "version": "1.5.3",
+    "scripts": {
+        "start": "node ssserver"
+    },
     "licenses": [{
         "type": "MIT",
         "url": "https://raw.github.com/clowwindy/shadowsocks-nodejs/master/LICENSE"
